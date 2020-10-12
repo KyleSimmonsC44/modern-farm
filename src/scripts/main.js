@@ -3,7 +3,6 @@ import { createPlan } from './plan.js'
 const yearlyPlan = createPlan()
 console.log(yearlyPlan)
 
-import {createAsparagus} from './seeds/asparagus.js'
-
-const test = createAsparagus()
-console.log (test)
+import {usePlants} from './field.js'
+const test = usePlants()
+console.log(test)
